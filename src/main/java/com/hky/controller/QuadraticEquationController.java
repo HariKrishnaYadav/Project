@@ -24,4 +24,8 @@ public class QuadraticEquationController {
 		double[] roots = quadraticEquationService.calculateRoots(a, b, c);
 		return ResponseEntity.ok(roots);
 	}
+
+	public String getApp(){
+		return  null;
+	}
 }
