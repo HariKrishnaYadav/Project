@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.hky.service.QuadraticEquationService;
 
-// QuadraticEquationController.java
+
 @RestController
 @RequestMapping("/quadratic")
 public class QuadraticEquationController {
