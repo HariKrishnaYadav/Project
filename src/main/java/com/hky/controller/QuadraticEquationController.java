@@ -25,7 +25,5 @@ public class QuadraticEquationController {
 		return ResponseEntity.ok(roots);
 	}
 
-	public String getApp(){
-		return  null;
-	}
+
 }
