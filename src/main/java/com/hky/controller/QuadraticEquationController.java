@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.hky.service.QuadraticEquationService;
 
-
+// QuadraticEquationController.java
 @RestController
 @RequestMapping("/quadratic")
 public class QuadraticEquationController {
@@ -24,6 +24,4 @@ public class QuadraticEquationController {
 		double[] roots = quadraticEquationService.calculateRoots(a, b, c);
 		return ResponseEntity.ok(roots);
 	}
-
-
 }
